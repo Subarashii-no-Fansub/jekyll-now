@@ -1,0 +1,10 @@
+---
+layout: post
+title: You're up and running!
+---
+in your home folder, create a .fonts folder
+copy font files in this location
+
+* update your font cache : fc-cache -fv
+
+done :)
