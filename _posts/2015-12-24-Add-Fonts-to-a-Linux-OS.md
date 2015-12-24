@@ -7,4 +7,4 @@ title: You're up and running!
 * create a ```.fonts``` folder if it's not exist
 * copy the font files in this location
 * update your font cache by executing on your console : ```$ fc-cache -fv```
-* done :smiley:
+* done :-)
