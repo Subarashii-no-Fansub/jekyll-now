@@ -3,7 +3,7 @@ layout: post
 title: Do a Torrent file
 ---
 I use the package ```transmission-create```, available with ```transmission-cli```.
-I don't use ```mktorrent``` because ```transmission-create``` automatically choosse the best conf for size piece.
+I don't use ```mktorrent``` because ```transmission-create``` automatically choose the best conf for size piece.
 
 Because I create a lot of torrent, I did a script available [here](https://github.com/Subarashii-no-Fansub/Torrent/).
 
