@@ -5,7 +5,7 @@ title: Making Patches with xdelta
 
 ## Creating a patch
 
-* You need ```xdelta3```and the V1 file and the V2 file
+* You need ```xdelta3``` and the V1 file and the V2 file
 * Open a terminal, go to the folder where the files are (with ```cd``` command)
 * Execute ```xdelta3 -s v1filename v2filename v2patch.xdelta``` (change ```v1filename``` and ```v2filename``` by the correct filename, and ```v2patch``` by the name of the patch)
 
@@ -31,7 +31,9 @@ xdelta3 -d v2patch.xdelta
 echo Patching complete!
 @pause
 ```
+
 Or
+
 ```
 @echo off 
 setlocal ENABLEDELAYEDEXPANSION
