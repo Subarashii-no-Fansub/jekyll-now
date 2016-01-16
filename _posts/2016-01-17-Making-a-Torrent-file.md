@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Do a Torrent file
+title: Making a Torrent file
 ---
 I use the package ```transmission-create```, available with ```transmission-cli```.
 I don't use ```mktorrent``` because ```transmission-create``` automatically choose the best conf for size piece.
@@ -10,7 +10,7 @@ Because I create a lot of torrent, I did a script available [here](https://githu
 You just have to:
 
 1. Clone the repo
-2. open a console, here where you clone the repo, and execute ```chmod +x PublicTorrent.sh && chmod +x PrivateTorrent.sh.sh```
+2. Open a console, here where you clone the repo, and execute ```chmod +x PublicTorrent.sh && chmod +x PrivateTorrent.sh.sh```
 3. Modify ```configTorrent.cfg```
 	* ```setdirectory``` is where to put the .torrent in your computer
 	* You must to set the two public tracker (```public_tracker_un``` and ```public_tracker_deux```).<br>Here good tracker you can use:
@@ -18,15 +18,15 @@ You just have to:
 		* ```http://anidex.moe:6969/announce```
 		* ```udp://tracker.openbittorrent.com:80```
 	* You must to set the private tracker (```private_tracker```).<br>Private tracker means disallow DHT and PeerExchange
-	* run ```$ ./PublicTracker 'myfile'``` or ```$ ./PublicTracker 'myfolder'```
-	* Upload your torrent somewhere and add it to your bitorrent software to seed your file (your file must be completed download on your site/you must have the file to seed it)
-	* done :-)
+	* Run ```$ ./PublicTracker 'myfile'``` or ```$ ./PublicTracker 'myfolder'```
+	* Upload your torrent somewhere and add it to your bittorrent software to seed your file (your file must be completed download on your site/you must have the file to seed it)
+	* And it's done :-)
 
-## The bitorrent software I use
+## The bittorrent software I use
 My favorites are ```transmission-bt``` (or simply ```transmission```) and ```qbittorrent```.
 
 ## The best conf for size piece
-If you must to config it, here the best conf to choose your piece size:
+If you have to config it, here the best conf to choose your piece size:
 <table>
 	<tr>
 		<th>Total size of files</th>
