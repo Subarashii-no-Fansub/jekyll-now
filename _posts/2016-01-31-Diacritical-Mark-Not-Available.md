@@ -9,5 +9,9 @@ I sometimes write in french my subtitles, and in french we have a lot of [diacri
 
 The first thing I do is I write it normally in [aegisub](http://www.aegisub.org/). 
 <br>After I add my font on my OS (see [Adding fonts to a Linux OS](../Adding-Font/)), I check it with Aegisub (File > Fonts Collector > Check fonts for availability and click on **start**).
-<br>When a font is not available, just add it.
-<br>Else if the font can't show your mark, it's written...
+
+When a font is not available ("Could not find font 'xxxx'. Used on lines: xxx), just add it.
+<br>Else if the font can't show your mark, it's written "Found 'xxx' at '/home/xxx/.fonts/font.ttf'
+'ArtificeSSK' is missing the following glyphs used: ’
+Used on lines: xx"
+<br>And at the end: "One font was found, but was missing glyphs used in the script."
