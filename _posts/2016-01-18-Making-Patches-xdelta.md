@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Making Patches with xdelta
+excerpt: <!--more-->
 ---
+{{post.excerpt}}
 
 ## Creating a patch
 
