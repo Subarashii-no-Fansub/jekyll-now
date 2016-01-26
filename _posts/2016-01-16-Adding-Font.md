@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Adding fonts to a Linux OS
-excerpt_separator: <!--more-->
+excerpt: <!--more-->
 ---
-<!--more-->
+{{post.excerpt}}
 * Open a console
 * Go in your home folder
 * Create a ```.fonts``` folder if it doesn't exist
