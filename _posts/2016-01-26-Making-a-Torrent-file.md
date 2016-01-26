@@ -10,7 +10,7 @@ Because I create a lot of torrent, I did a script available [here](https://githu
 You just have to:
 
 1. Clone the repo
-2. Open a console, here where you clone the repo, and execute ```chmod +x PublicTorrent.sh && chmod +x PrivateTorrent.sh.sh```
+2. Open a console, here where you clone the repo, and execute ```chmod +x PublicTorrent.sh && chmod +x PrivateTorrent.sh```
 3. Modify ```configTorrent.cfg```
 	* ```setdirectory``` is where to put the .torrent in your computer
 	* You must to set the two public tracker (```public_tracker_un``` and ```public_tracker_deux```).<br>Here good tracker you can use:
