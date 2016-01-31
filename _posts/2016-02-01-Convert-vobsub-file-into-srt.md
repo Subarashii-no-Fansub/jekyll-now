@@ -4,7 +4,8 @@ title: Convert VobSub file into .srt file
 excerpt: <!--more-->
 ---
 So first at all, you should have a MKV file, with a VobSub subtitle file.
-{{post.excerpt}}<br>When running ```$ mkvmerge -i mkvfile.mkv```, you should see ```Track ID x: subtitles (VobSub)``` (where **x** is a number).
+<br>
+{{post.excerpt}}When running ```$ mkvmerge -i mkvfile.mkv```, you should see ```Track ID x: subtitles (VobSub)``` (where **x** is a number).
 
 > Do not forget to install the **mkvtoolnix** package, which contains mkvmerge.
 
