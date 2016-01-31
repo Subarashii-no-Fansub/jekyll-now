@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Convert VobSub file into .srt file
+excerpt: <!--more-->
 ---
 So first at all, you should have a MKV file, with a VobSub subtitle file.
 {{post.exerpt}}
