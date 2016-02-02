@@ -23,6 +23,7 @@ excerpt: <!--more-->
 
 ## Release a patch
 For Windows user, the minimum is :
+
  * the patch + a xdelta executer (xdelta.exe)
  * + a .bat file:
 
@@ -49,7 +50,9 @@ if %PROCESSOR_ARCHITECTURE%==x86 (
 set DIFF=v2patch.xdelta 
 set OLD=old_mkv.mkv
 set NEW=new_mkv_name.mkv
+
 @echo Patching in progress...
+
 %xdelta3% -d -s "%OLD%" "%DIFF%" "%NEW%"
 if %ERRORLEVEL% EQU 0 (
   if EXIST "%NEW%" (
@@ -59,6 +62,8 @@ if %ERRORLEVEL% EQU 0 (
 ) else (
   @echo Patching failed or file exists
 )
+
 pause:exit
 endlocal
+
 ```
