@@ -12,6 +12,16 @@
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  background-color: #d4d4d4;
+}
+
+code::-moz-selection {
+  color: #ffffff;
+  background: #BA9EB0;
+}
+code::selection {
+  color: #ffffff;
+  background: #BA9EB0;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
