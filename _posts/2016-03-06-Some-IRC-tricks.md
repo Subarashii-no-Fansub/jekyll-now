@@ -10,7 +10,7 @@ You can follow this guide wich is written to download on the #horriblesubs chann
 
 ## Seed the files you've downloading on IRC
 
-If you want to seed on torrent all the files you download, sometimes you must change all the underscore (```_```) into spaces (``` ```).
+If you want to seed on torrent all the files you download, sometimes you must change all the underscore (```_```) into spaces (```  ```).
 <br>To do that, just use this command: ```$ rename 's/_/ /g' *```.
 
 ## Change Access to an user on IRC
