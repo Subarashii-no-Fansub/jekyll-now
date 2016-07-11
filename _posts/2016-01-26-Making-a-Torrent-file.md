@@ -14,9 +14,9 @@ You just have to:
 3. Modify ```configTorrent.cfg```
 	* ```setdirectory``` is where to put the .torrent in your computer
 	* You must to set the two public tracker (```public_tracker_un``` and ```public_tracker_deux```).<br>Here good tracker you can use:
-		* ```http://open.nyaatorrents.info:6544/announce```
-		* ```http://anidex.moe:6969/announce```
-		* ```udp://tracker.openbittorrent.com:80```
+		* ```http://open.nyaatorrents.info:6544/announce``` (you must to registrer your torrent)
+		* ```http://anidex.moe:6969/announce``` (you must to registrer your torrent)
+		* ```udp://tracker.desu.sh:6969```
 	* You must to set the private tracker (```private_tracker```).<br>Private tracker means disallow DHT and PeerExchange
 	* Run ```$ ./PublicTracker 'myfile'``` or ```$ ./PublicTracker 'myfolder'```
 	* Upload your torrent somewhere and add it to your bittorrent software to seed your file (your file must be completed download on your site/you must have the file to seed it)
