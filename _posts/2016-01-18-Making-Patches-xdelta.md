@@ -24,8 +24,8 @@ excerpt: <!--more-->
 ## Release a patch
 For Windows user, the minimum is :
 
- * the patch + a xdelta executer (xdelta.exe)
- * + a .bat file:
+ * the patch + a xdelta executer ([download the 32b ZIP here for windows](https://github.com/jmacd/xdelta-gpl/releases/download/v3.0.10/xdelta3-i686-3.0.10.exe.zip))
+ * + a .bat file (change ```v2patch.xdelta``` by what you want)
 
 ```
 @echo off
@@ -34,11 +34,17 @@ xdelta3 -d v2patch.xdelta
 echo Patching complete!
 @pause
 ```
-
-Or
+OR
+```
+xdelta3 -d v2patch.xdelta
+@echo off
+mkdir Non-Batch
+move "old_mkv.mkv" "Non-Batch" > NUL 2>&1
+```
+OR
 
 ```
-@echo off 
+@echo off
 setlocal ENABLEDELAYEDEXPANSION
 
 if %PROCESSOR_ARCHITECTURE%==x86 (
@@ -65,5 +71,4 @@ if %ERRORLEVEL% EQU 0 (
 
 pause:exit
 endlocal
-
 ```
