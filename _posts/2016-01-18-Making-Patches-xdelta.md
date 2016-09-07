@@ -34,7 +34,9 @@ xdelta3 -d v2patch.xdelta
 echo Patching complete!
 @pause
 ```
-OR
+
+### More
+
 ```
 xdelta3 -d v2patch.xdelta
 @echo off
@@ -71,4 +73,20 @@ if %ERRORLEVEL% EQU 0 (
 
 pause:exit
 endlocal
+```
+
+#### Add a README:
+
+```
+Place the contents of this folder into the same place as our release
+and run the .bat file to update your files to their appropriate batch versions.
+
+Here's a list of the CRCs/files you should have when you're done:
+
+[REPLACE THAT BY THE LIST]
+
+Visit us at [contact info]
+if you have any issues with this batch-release patch.
+
+If it's all working properly for you: Enjoy the release!
 ```
