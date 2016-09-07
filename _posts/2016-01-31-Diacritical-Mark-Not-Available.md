@@ -23,6 +23,7 @@ In these two examples, I put the font in `.font` folder, that's a **bad** practi
 <br>Else if the font can't show your mark, it's written ```Found 'xxx' at '/home/xxx/.fonts/font.ttf' 'xxx' is missing the following glyphs used: ’. Used on lines: xx"```.
 <br>And at the end: ```One font was found, but was missing glyphs used in the script.```.
 
-##
-
-`\frz127.1\` with a ' for ```é``` and `\frz13.67\` for ```è```
+## Some glyphes
+* For ```é```, write a `e` and add `\frz127.1\` with `'`
+* For ```è```, write a `e` and add `\frz13.67\` with `'`
+* For ```œ```, write `{\fsp-5}o{\fsp1}e`
