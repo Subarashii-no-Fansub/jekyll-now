@@ -13,3 +13,7 @@ The first thing I do is I write it normally in [aegisub](http://www.aegisub.org/
 When a font is not available (```Could not find font 'xxxx'. Used on lines: xxx```), just add it.
 <br>Else if the font can't show your mark, it's written ```Found 'xxx' at '/home/xxx/.fonts/font.ttf' 'xxx' is missing the following glyphs used: ’. Used on lines: xx"```.
 <br>And at the end: ```One font was found, but was missing glyphs used in the script.```.
+
+##
+
+`\frz127.1\` with a ' for ```é``` and `\frz13.67\` for ```è```
