@@ -17,6 +17,7 @@ You just have to:
 		* ```http://open.nyaatorrents.info:6544/announce``` (you must to registrer your torrent)
 		* ```http://anidex.moe:6969/announce``` (you must to registrer your torrent)
 		* ```udp://tracker.desu.sh:6969```
+		* and others that you can find [here](https://github.com/ngosang/trackerslist)
 	* You must to set the private tracker (```private_tracker```).<br>Private tracker means disallow DHT and PeerExchange
 	* Run ```$ ./PublicTracker 'myfile'``` or ```$ ./PublicTracker 'myfolder'```
 	* Upload your torrent somewhere and add it to your bittorrent software to seed your file (your file must be completed download on your site/you must have the file to seed it)
