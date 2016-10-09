@@ -13,12 +13,13 @@ In the SnF, the cost for the subs is very low: ~$10 per month for 1To of data fo
 * we don't have storage server. Even if our total size of project is less than 1To, I seed it for 3/4 months only.<br>If one day you want my release, you must to download the encode + the pack of subtitles/font and mux them.
 * we have a website on GitHub.<br>I sometimes use hostinger to host a few file (*free* account) + sync.com services (*free* account too)
 
-## For others subbing group
+## Other extras
 
 Some groups only ask donation for paying BD. It's not my goal to explain this kind of expense.<br>I prefer to annalyze the cost of the architecture.
-<br>They use IRC for chatting (a public channel + a private channel); 
 
 ### For DameDesuYo:
+
+They use IRC for chatting (a public channel + a private channel); <br>
 <table>
 	<tr>
 		<th></th>
@@ -42,9 +43,9 @@ Some groups only ask donation for paying BD. It's not my goal to explain this ki
 	</tr>
 </table>
 
-We can see that a simple site that receiving more than 20 000 visitors (using cloudflare, a *free* account I think + the cheapest namecheap's Shared Hosting offer), and a normal-price seedbox!<br>
+We can see that a simple site that receiving more than 20 000 visitors pay a low price (using cloudflare, a *free* account I think + the cheapest namecheap's Shared Hosting offer), and a normal-price seedbox!<br>
 For encode server, it's their choice that I don't really agree. I hope one day this kind of server will be sharing between all the subbing group to be less expensive.<br>And for storage/ftp server, to receive big file (like .ts or .iso for BDMV) and store all their release, it's expensive!
 
-### For FFF
+### For others fansubs
 
-*On day* :wink:
+They buy in general a dedicated server (for FTP/XDCC/Storage). Some have that at ~18€ per months for 2TB. Others have money and buy approximatively 80€/months (RDP server to encode + dedicated server) + dedicated server for hosting (25€). Hosting can be done in a blog-enterprise if content is not really licensed…
