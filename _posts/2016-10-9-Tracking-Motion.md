@@ -35,16 +35,16 @@ You should have open a video and a subtitle file.
   * in bottom, click on Open, open your video (it's in the same folder than the video you open in aegisub, but with at the end `[start_frame-end_frame]`
   * At the left, in tracking settings, change settings: pattern size at 15; search size at 61
   * change the *motio* to
-    * Loc, for locality's changing
-    * LocRot, for locality+rotation's changing
-    * LocScale, for locality+size's changing
-    * LocScaleRot, for locality+size+rotation's changing
+     * Loc, for locality's changing
+     * LocRot, for locality+rotation's changing
+     * LocScale, for locality+size's changing
+     * LocScaleRot, for locality+size+rotation's changing
   * change the *match* to > previous frame
   * add a marker (Marker > Add at the left)
   * in the right, check *search* in the *marker display* section
-  * You can track it (using at the left *Trackt* section > Track > right directionnal arrow)
-4. After thatn we need to add the plugin to export the data to aegisub-motion. You need to do that once!
-  * save https://raw.githubusercontent.com/Subarashii-no-Fansub/AAE-Export/master/aae-export.py
+  * You can track it (using at the left *Trackt* section > Track > right directionnal arrow or left directionnal arrow)
+4. After that, we need to add the plugin to export the data to aegisub-motion. You need to do that once!
+  * save [aae-export.py](https://raw.githubusercontent.com/Subarashii-no-Fansub/AAE-Export/master/aae-export.py)
   * in blender: file > user preferences > add-ons > install from file (search the file `aae-export.py` you've just downloaded!)
   * Do not forget to activate it! (by checking the box). The name in blender of this add-ons is `Import-Export: Export: Adobe After Effects 6.0 Keyframe Data`
 5. We can now do: file > export > dobe After Effects 6.0 Keyframe Data
