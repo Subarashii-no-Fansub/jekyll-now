@@ -9,6 +9,7 @@ Because I hate seing fan to pay for a non-legal thing that doesn't really help t
 
 In the SnF, the cost for the subs is very low: ~$10 per month for 1To of data for a personnal dedicated server.
 <br>But in an other hand:
+
 * we have no encode server; we don't really encode but use existing encode.<br>If one day we must to encode, a personnal computer will be sufficient.
 * we don't have storage server. Even if our total size of project is less than 1To, I seed it for 3/4 months only.<br>If one day you want my release, you must to download the encode + the pack of subtitles/font and mux them.
 * we have a website on GitHub.<br>I sometimes use hostinger to host a few file (*free* account) + sync.com services (*free* account too)
@@ -48,4 +49,6 @@ For encode server, it's their choice that I don't really agree. I hope one day t
 
 ### For others fansubs
 
-They buy in general a dedicated server (for FTP/XDCC/Storage). Some have that at ~18€ per months for 2TB. Others have money and buy approximatively 80€/months (RDP server to encode + dedicated server) + dedicated server for hosting (25€). Hosting can be done in a blog-enterprise if content is not really licensed…
+They buy in general a dedicated server (for FTP/XDCC/Storage).
+<br>Some have that at ~18€ per months for 2TB. Others have money and buy approximatively 80€/months (RDP server to encode + dedicated server) + dedicated server for hosting (25€).
+<br>Hosting can be done in a blog-enterprise if content is not really licensed…
