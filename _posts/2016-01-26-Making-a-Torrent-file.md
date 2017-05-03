@@ -13,7 +13,7 @@ You just have to:
 2. Open a console, here where you clone the repo, and execute ```chmod +x PublicTorrent.sh && chmod +x PrivateTorrent.sh```
 3. Modify ```configTorrent.cfg```
 	* ```setdirectory``` is where to put the .torrent in your computer
-	* You must to set the two public tracker (```public_tracker_un``` and ```public_tracker_deux```).<br>Here good tracker you can use:
+	* You must to set the two public tracker (```public_tracker_un```, ```public_tracker_deux``` and ```public_tracker_trois```).<br>Here good tracker you can use:
 		* ```http://open.nyaatorrents.info:6544/announce``` (you must to registrer your torrent)
 		* ```http://anidex.moe:6969/announce``` (you must to registrer your torrent)
 		* ```udp://tracker.desu.sh:6969```
