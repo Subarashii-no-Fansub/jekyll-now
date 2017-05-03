@@ -2,6 +2,7 @@
 layout: post
 title: Making a Torrent file
 ---
+
 I use the package ```transmission-create```, available with ```transmission-cli```.
 I don't use ```mktorrent``` because ```transmission-create``` automatically choose the best conf for size piece.
 
@@ -14,9 +15,9 @@ You just have to:
 3. Modify ```configTorrent.cfg```
 	* ```setdirectory``` is where to put the .torrent in your computer
 	* You must to set the two public tracker (```public_tracker_un```, ```public_tracker_deux``` and ```public_tracker_trois```).<br>Here good tracker you can use:
-		* ```http://open.nyaatorrents.info:6544/announce``` (you must to registrer your torrent)
+		* ```http://tracker.anirena.com:80/announce``` (you must to registrer your torrent)
 		* ```http://anidex.moe:6969/announce``` (you must to registrer your torrent)
-		* ```udp://tracker.desu.sh:6969```
+		* ```udp://tracker.doko.moe:6969```
 		* and others that you can find [here](https://github.com/ngosang/trackerslist)
 	* You must to set the private tracker (```private_tracker```).<br>Private tracker means disallow DHT and PeerExchange
 	* Run ```$ ./PublicTracker 'myfile'``` or ```$ ./PublicTracker 'myfolder'```
@@ -24,9 +25,11 @@ You just have to:
 	* And it's done :-)
 
 ## The bittorrent software I use
+
 My favorites are ```transmission-bt``` (or simply ```transmission```) and ```qbittorrent```.
 
 ## The best conf for size piece
+
 If you have to config it, here the best conf to choose your piece size:
 <table>
 	<tr>
