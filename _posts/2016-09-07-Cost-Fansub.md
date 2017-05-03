@@ -7,7 +7,7 @@ excerpt: <!--more-->
 <br>I'm really interresting about this topic.
 Because I hate seing fan to pay for a non-legal thing that doesn't really help the ones who made all the TV show!
 
-In the SnF, the cost for the subs is very low: ~$10 per month for 1To of data for a personnal dedicated server.
+In the SnF, the cost for the subs is very low: ~$10 per month for 1To of data for a personnal dedicated server (yes, not a really dedicated for only the fansub).
 <br>But in an other hand:
 
 * we have no encode server; we don't really encode but use existing encode.<br>If one day we must to encode, a personnal computer will be sufficient.
@@ -50,5 +50,6 @@ For encode server, it's their choice that I don't really agree. I hope one day t
 ### For others fansubs
 
 They buy in general a dedicated server (for FTP/XDCC/Storage).
-<br>Some have that at ~18€ per months for 2TB. Others have money and buy approximatively 80€/months (RDP server to encode + dedicated server) + dedicated server for hosting (25€).
+<br>Some have that at ~18€ per months for 2TB. With the server, they can have private FTP for subbing processs, XDCCs, website + direct link. And the chat is on a existing IRC server.
+<br>Others have money (by themself or by using donation) and buy approximatively 100€/months (RDP server to encode + dedicated server at 80€ + a dedicated server for hosting (20€).
 <br>Hosting can be done in a blog-enterprise if content is not really licensed…
