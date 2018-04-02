@@ -10,10 +10,10 @@ When running ```$ mkvmerge -i mkvfile.mkv```, you should see ```Track ID x: subt
 
 > Do not forget to install the **mkvtoolnix** package, which contains mkvmerge.
 
-Extract this vobsub file from your mkv by using [my script from here](https://github.com/Subarashii-no-Fansub/Extraction/blob/master/sub_mkv.sh).
+Extract this vobsub file from your mkv by using [my script from here](https://raw.githubusercontent.com/Subarashii-no-Fansub/Extraction/master/sub_mkv.sh).
 
  1. ```chmod +x sub_mkv.sh```
- 1. ```./sub_mkv.sh mkvfile.mkv```. When it asks "Numéro des sous-titres :", write the number **x** see above.
+ 1. ```./sub_mkv.sh mkvfile.mkv```. When it asks "Subtitle Track ID:", write the number **x** see above.
  1. Normally you'll now have two files: a ```.idx``` and a ```.sub``` (and optionnaly a ```.ifo```)
  1. Then install [vobsub2srt](https://github.com/ruediger/VobSub2SRT) and a *tesseract* lang package (see all the lang package available [here](https://github.com/tesseract-ocr/langdata))
    * I install ```tesseract-data-eng``` and ```tesseract-data-fre```
