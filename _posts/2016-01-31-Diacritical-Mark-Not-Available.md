@@ -10,7 +10,7 @@ I sometimes write in french my subtitles, and in french we have a lot of [diacri
 ### Check if the font is adding to the sytem
 
 The first thing I do is I write it normally in [aegisub](http://www.aegisub.org/). 
-<br>After I add my font on my OS (see [Adding fonts to a Linux OS](../Adding-Font/)), I check it with Aegisub (File > Fonts Collector > Check fonts for availability and click on **start**).
+<br>After I add my font on my OS (see [Adding fonts to a Linux OS](https://subarashii-no-fansub.github.io/Subbing-Tutorial/Adding-Font/)), I check it with Aegisub (File > Fonts Collector > Check fonts for availability and click on **start**).
 
 When a font is not available (```Could not find font 'xxxx'. Used on lines: xxx```), just [add it](../Adding-Font/).
 
