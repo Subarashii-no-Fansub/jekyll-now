@@ -7,7 +7,7 @@ excerpt: <!--more-->
 <br>I'm really interresting about this topic.
 Because I hate seing fan to pay for a non-legal thing that doesn't really help the ones who made all the TV show!
 
-In the SnF, the cost for the subs is very low: ~$10 per month for 1To of data for a personnal dedicated server (yes, not a really dedicated for only the fansub).
+In Subarashii-no-Fansub, the cost for the subs is very low: ~$10 per month for 1To of data for a personnal dedicated server (yes, not a really dedicated for only the fansub).
 <br>But in an other hand:
 
 * we have no encode server; we don't really encode but use existing encode.<br>If one day we must to encode, a personnal computer will be sufficient.
