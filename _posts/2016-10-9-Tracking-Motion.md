@@ -5,11 +5,11 @@ excerpt: <!--more-->
 ---
 {{post.excerpt}}
 A lot of people who does TypeSetting use Mocha to do that!<br>But because I'm on Linux, this solution is not the best for me.
-<br>Here a tutorial to do that on Blender, a free and open-source software. You can use it too on Windows of course!
+<br>Here a tutorial to do that on Blender, a free and open-source software. You can use it on Windows too!
 
 ## Install Aegisub Motion plugin
 
-* Go on https://github.com/TypesettingTools/Aegisub-Motion/releases and download the latest release
+* Go on [github.com/TypesettingTools/Aegisub-Motion/releases](https://github.com/TypesettingTools/Aegisub-Motion/releases) and download the latest release
 * Extract the content (the folders `autoload`, `include`) in `~/.aegisub/automation` (you may create this folder) for Linux.
   * For others OS, see [this page](https://github.com/TypesettingTools/Aegisub-Motion/wiki/Installation#installation-instructions)
 * Install `Blender`, and `x264`
@@ -26,19 +26,19 @@ You should have open a video and a subtitle file.
   * and report the frame number to the good input (start/end) (EG: [here](https://cloud.githubusercontent.com/assets/6844060/19222348/86f1b7b2-8e56-11e6-8d8d-ebff8cb392c3.png) the edit finish at `4752` but the last frame is `4753` - see under the video)
  2. After the 1. done, we'll trim the video using Aegisub Motion. But before, you need to configure it once:
   * select the edit line (good timed) and select **Automation** > **Aegisub-Motion** > **Trim Setting**
-  * here let's **video** to `?video`, change **encoding preset** to `x264` and click on **Encode..** button.
-  * Select the x264 binary (in Linux, it's `/sbin/x264`)
+  * here let's **video** to `?video`, change **encoding preset** to `x264` and click on **Encoder..** button.
+  * Select the x264 binary (in Linux, it's `/sbin/x264` or `/usr/bin/x264`)
   * Save
   * select **Automation** > **Aegisub-Motion** > **Trim**
  3. Now in Blender
-  * open the 'movie clip editor' view
-  * in bottom, click on Open, open your video (it's in the same folder than the video you open in aegisub, but with at the end `[start_frame-end_frame]`
-  * At the left, in tracking settings, change settings: pattern size at 15; search size at 61
+  * open the 'movie clip editor' view, in the bottom left
+  * at the right of this, click on Open, open your video (it's in the same folder than the video you open in aegisub, but with at the end `[start_frame-end_frame]`)
+  * At the mid-left, in tracking settings, change settings: pattern size at 15; search size at 61
   * change the *motio* to
-     * Loc, for locality's changing
-     * LocRot, for locality+rotation's changing
-     * LocScale, for locality+size's changing
-     * LocScaleRot, for locality+size+rotation's changing
+     - Loc, for locality's changing
+     - LocRot, for locality+rotation's changing
+     - LocScale, for locality+size's changing
+     - LocRotScale, for locality+size+rotation's changing
   * change the *match* to > previous frame
   * add a marker (Marker > Add at the left)
   * in the right, check *search* in the *marker display* section
