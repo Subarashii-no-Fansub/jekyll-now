@@ -34,11 +34,7 @@ You should have open a video and a subtitle file.
   * open the 'movie clip editor' view, in the bottom left
   * at the right of this, click on Open, open your video (it's in the same folder than the video you open in aegisub, but with at the end `[start_frame-end_frame]`)
   * At the mid-left, in tracking settings, change settings: pattern size at 15; search size at 61
-  * change the *motio* to
-     1. Loc, for locality's changing
-     2. LocRot, for locality+rotation's changing
-     3. LocScale, for locality+size's changing
-     4. LocRotScale, for locality+size+rotation's changing
+  * change the *motio* to: Loc, for locality's changing; LocRot, for locality+rotation's changing; LocScale, for locality+size's changing; LocRotScale, for locality+size+rotation's changing.
   * change the *match* to > previous frame
   * add a marker (Marker > Add at the left)
   * in the right, check *search* in the *marker display* section
