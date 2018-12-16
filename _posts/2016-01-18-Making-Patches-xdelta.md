@@ -7,7 +7,7 @@ excerpt: <!--more-->
 
 ## Creating a patch
 
-* You need ```xdelta3``` and the V1 file and the V2 file
+* You need ```xdelta3```, the V1 file and the V2 file
 * Open a terminal, go to the folder where the files are (with ```cd``` command)
 * Execute ```xdelta3 -s v1filename v2filename v2patch.xdelta``` (change ```v1filename``` and ```v2filename``` by the correct filename, and ```v2patch``` by the name of the patch)
 
@@ -17,12 +17,13 @@ excerpt: <!--more-->
 ## Applying a patch
 
 * Open a terminal
-* If V1 and ```.vcdiff```/```.xdelta``` (```v2patch.xdelta``` for example) are on the same folder.
+* If V1 and ```.vcdiff```/```.xdelta``` (```v2patch.xdelta``` for example) are in the same folder.
  * ```xdelta3 -d "v2patch.xdelta"```
 * Else ```xdelta3 -d -s old_mkv.mkv v2patch.xdelta new_mkv_name.mkv```
 
 ## Release a patch
-For Windows user, the minimum is :
+
+For Windows user, the minimum is:
 
  * the patch + a xdelta executer ([download the 32b ZIP here for windows](https://github.com/jmacd/xdelta-gpl/releases/download/v3.0.10/xdelta3-i686-3.0.10.exe.zip))
  * + a .bat file (change ```v2patch.xdelta``` by what you want)
@@ -75,7 +76,7 @@ pause:exit
 endlocal
 ```
 
-#### Add a README:
+### And adding a README:
 
 ```
 Place the contents of this folder into the same place as our release
