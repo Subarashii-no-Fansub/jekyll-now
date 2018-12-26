@@ -32,3 +32,23 @@ Here some help:
  - *generally*, SeuilI is between 170 and 230, and SeuilO is between 20 and 120
  - SeuilI represent the **maximum** value you put to have a subtitle correctly visible
  - SeuilO represent the **minimum** value you put to have a subtitle correctly visible
+
+## Time the video
+
+As sometimes the video to OCR is not timed at the same time than your destination video (because of for example the presence of an introudction), we're going to use [Sushi](https://github.com/tp7/Sushi).
+
+To install it, visit [the Github Sushi](https://github.com/tp7/Sushi/blob/master/README.md#requirements).
+
+Here the commandline for automatic retiming:
+
+```
+$ python2 sushi --src [OCRedVideo].mp4 --src-audio 1 --dst "[DestinationVideo].mkv" --dst-audio 1 --script [Subtitle].srt
+```
+Replace the value:
+ + --src [OCRedVideo].mp4: the video you've just OCRed
+ + --src-audio 1: The audio pist number of [OCRedVideo].mp4, using `mkvmerge -i` to guess it
+ + --dst [DestinationVideo].mkv: the destination video, where subtitle will be mux
+ + --dst-audio 1: same than --src-audio 1 but for [DestinationVideo].mkv
+ + --script [Subtitle].srt: your subtitle file
+      
+
