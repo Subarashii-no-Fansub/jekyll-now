@@ -45,10 +45,8 @@ Here the commandline for automatic retiming:
 $ python2 sushi --src [OCRedVideo].mp4 --src-audio 1 --dst "[DestinationVideo].mkv" --dst-audio 1 --script [Subtitle].srt
 ```
 Replace the value:
- + --src [OCRedVideo].mp4: the video you've just OCRed
- + --src-audio 1: The audio pist number of [OCRedVideo].mp4, using `mkvmerge -i` to guess it
- + --dst [DestinationVideo].mkv: the destination video, where subtitle will be mux
- + --dst-audio 1: same than --src-audio 1 but for [DestinationVideo].mkv
- + --script [Subtitle].srt: your subtitle file
-      
-
+ + `--src [OCRedVideo].mp4`: the video you've just OCRed
+ + `--src-audio 1`: The audio pist number of [OCRedVideo].mp4, using `mkvmerge -i` to guess it
+ + `--dst [DestinationVideo].mkv`: the destination video, where subtitle will be mux
+ + `--dst-audio 1`: same than `--src-audio 1` but for [DestinationVideo].mkv
+ + `--script [Subtitle].srt`: your subtitle file
