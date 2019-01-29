@@ -35,11 +35,11 @@ Here some help:
 
 ## Time the video
 
-As sometimes the video to OCR is not timed at the same time than your destination video (because of for example the presence of an introudction), we're going to use [Sushi](https://github.com/tp7/Sushi).
+As sometimes the video to OCR is not timed at the same time than your destination video (because of for example the presence of an introduction), we're going to use [Sushi](https://github.com/tp7/Sushi).
 
 To install it, visit [the Github Sushi](https://github.com/tp7/Sushi/blob/master/README.md#requirements).
 
-Here the commandline for automatic retiming:
+Here the command line for automatic retiming:
 
 ```
 $ python2 sushi --src [OCRedVideo].mp4 --src-audio 1 --dst "[DestinationVideo].mkv" --dst-audio 1 --script [Subtitle].srt
