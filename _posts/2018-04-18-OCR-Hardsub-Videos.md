@@ -42,7 +42,7 @@ To install it, visit [the Github Sushi](https://github.com/tp7/Sushi/blob/master
 Here the command line for automatic retiming:
 
 ```
-$ python2 sushi --src [OCRedVideo].mp4 --src-audio 1 --dst "[DestinationVideo].mkv" --dst-audio 1 --script [Subtitle].srt
+$ python2 sushi.py --src [OCRedVideo].mp4 --src-audio 1 --dst "[DestinationVideo].mkv" --dst-audio 1 --script [Subtitle].srt
 ```
 Replace the value:
  + `--src [OCRedVideo].mp4`: the video you've just OCRed
