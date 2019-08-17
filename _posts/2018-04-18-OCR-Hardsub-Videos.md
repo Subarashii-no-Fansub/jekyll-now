@@ -18,7 +18,7 @@ For that, I'll use:
 
 You can follow the [README of YoloCR](https://bitbucket.org/YuriZero/yolocr/src/88fd5422aa35610d8b68ecbe18a583260e24d32d/README_EN.md?fileviewer=file-view-default#markdown-header-how-to-use) but to be a short version of the README:
 
- - Open the `YOloCR.vpy` file and edit:
+ - Open the `YoloCR.vpy` file and edit:
    - **FichierSource** for the source file to OCR
    - **DimensionCropBox** that is the dimension of the cropbox to limit the zone to OCR
    - **HauteurCropBox** that is the height of the cropbox
