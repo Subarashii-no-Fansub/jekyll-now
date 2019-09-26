@@ -16,7 +16,7 @@ For that, I'll use:
 
 ## OCR the video
 
-You can follow the [README of YoloCR](https://bitbucket.org/YuriZero/yolocr/src/88fd5422aa35610d8b68ecbe18a583260e24d32d/README_EN.md?fileviewer=file-view-default#markdown-header-how-to-use) but to be a short version of the README:
+You can follow the [README of YoloCR](https://bitbucket.org/YuriZero/yolocr/src/c013e6b74804251a253d00d820b4de668848f13f/README_EN.md?at=master#markdown-header-how-to-use) but here a short version of the README:
 
  - Open the `YoloCR.vpy` file and edit:
    - **FichierSource** for the source file to OCR
@@ -32,6 +32,13 @@ Here some help:
  - *generally*, SeuilI is between 170 and 230, and SeuilO is between 20 and 120
  - SeuilI represent the **maximum** value you put to have a subtitle correctly visible
  - SeuilO represent the **minimum** value you put to have a subtitle correctly visible
+
+### Use the legacy version of Tesseract instead of the LSTM motor
+
+Since the new tesseract version 4.0, LSTM is the new motor. It's generally more accurate in the OCR, but it's loooonger than the old motor.<br>
+To use the legacy motor, simply download thieses traineddata from [here](https://github.com/tesseract-ocr/tessdata/) and save it in the folder `/usr/share/tesseract/tessdata` under the name `<lang>-legacy.traineddata`.
+
+When using YoloCR, simply launch it in this way: `./YoloCR.sh Filetered_video.mp4 <lang>-legacy` instead of `./YoloCR.sh Filetered_video.mp4 <lang>` (else it'll use LSTM).
 
 ## Time the video
 
