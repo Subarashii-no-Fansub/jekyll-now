@@ -41,7 +41,7 @@ You should have open a video and a subtitle file.
   * You can track it (using at the left *Trackt* section > Track > right directionnal arrow or left directionnal arrow)
 4. After that, we need to add the plugin to export the data to aegisub-motion. You need to do that once!
   * save [aae-export.py](https://raw.githubusercontent.com/Subarashii-no-Fansub/AAE-Export/master/aae-export.py)
-  * in blender: file > user preferences > add-ons > install from file (search the file `aae-export.py` you've just downloaded!)
+  * in blender: Edit > Preferences > Add-ons > install from file (select the file `aae-export.py` you've just downloaded!)
   * Do not forget to activate it! (by checking the box). The name in blender of this add-ons is `Import-Export: Export: Adobe After Effects 6.0 Keyframe Data`
 5. We can now do: file > export > dobe After Effects 6.0 Keyframe Data
   * save it on a file.
