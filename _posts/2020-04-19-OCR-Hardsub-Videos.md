@@ -44,9 +44,9 @@ Open the `YoloSeuil.vpy` file and:
 These is two modes:
  - Luma mode: the most common, or when occuring OCR on subtitle in outline black and inline white (**ModeS='L'**)
  - RGB mode: useful when OCR older hard and fan subs video (eg when text is in blue) (3 sets of values are mandatory, **ModeS='R'**, **ModeS='B'**, **ModeS='G'**)
- 
+
 When doing Luma mode, only two values of **Seuil** are mandatory: the min and max value (used for **SeuilI** and **SeuilO** in `YoloCR.vpy` script).<br>
-When doing RGB mode, 6 values of **Seuil** are mandatory: the min and max value for each R, B, G.
+When doing RGB mode, 6 values of **Seuil** are mandatory: the min and max value for each R, G, B.
 
 Theses values will be reported for **SeuilI** and **SeuilO** args in `YoloCR.vpy` script.
 
@@ -56,26 +56,25 @@ Here some help:
  - SeuilI represent the **maximum** value you put to have a subtitle correctly visible
  - SeuilO represent the **minimum** value you put to have a subtitle correctly visible
 
-
 ### `YoloCR.vpy` script
 
 Open the `YoloCR.vpy` file and:
   - copy from `YoloSeuil.py`: **FichierSource**, **DimensionCropBox**, **HauteurCropBox**, **HauteurCropBoxAlt** (in case of some text in top of the video)
-  - from `YoloSeuil.vpy` script, copy your min value of Seuil in **SeuilO** args, and your max value of Seuil in **SeuilI** args (in case of RGB mode, **SeuilO** and **SeuilI** would be a table of three value, eg `SeuilI=[140,140,140]`)
-  
+  - from `YoloSeuil.vpy` script, copy your min value of Seuil in **SeuilO** args, and your max value of Seuil in **SeuilI** args (in case of RGB mode, **SeuilO** and **SeuilI** would be a table of three value, eg `SeuilI=[140,150,160]` where 140 is the value for `ModeS='R'`, 150 is for `ModeS='G'`, 160 is for `ModeS='B'` )
+
 ### Launch `YoloCR.sh` script
 
-#### Encode the subvideo
+#### Filter the video
 
 ```
-$ vspipe -y YoloCR.vpy - | ffmpeg -i - -c:v mpeg4 -qscale:v 3 -y nameOftheVideoOutput.mp4
+$ vspipe -y YoloCR.vpy - | ffmpeg -i - -c:v mpeg4 -qscale:v 3 -y Filetered_video.mp4
 
 ```
 
 #### And OCR it
 
 ```
-$ ./YoloCR.sh nameOftheVideoOutput.mp4
+$ ./YoloCR.sh Filetered_video.mp4
 ```
 
 ##### Use the legacy version of Tesseract instead of the LSTM motor
@@ -96,6 +95,7 @@ Here the command line for automatic retiming:
 ```
 $ python2 sushi.py --src [OCRedVideo].mp4 --src-audio 1 --dst "[DestinationVideo].mkv" --dst-audio 1 --script [Subtitle].srt
 ```
+
 Replace the value:
  + `--src [OCRedVideo].mp4`: the video you've just OCRed
  + `--src-audio 1`: The audio pist number of [OCRedVideo].mp4, using `mkvmerge -i` to guess it
