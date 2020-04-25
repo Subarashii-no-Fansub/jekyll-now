@@ -4,7 +4,7 @@ title: Encode audio from FLAC to AAC using fdkaac on Linux
 excerpt: <!--more-->
 ---
 
-Sadly, to encode from FLAC to AAC, you have the choice to use:
+To encode from FLAC to AAC, you have the choice to use:
 * QAAC (by using Wine and following [this tutorial](http://www.andrews-corner.org/qaac.html) for example)
 * following this tutorial for fdkaac
 * use [another AAC encoder](http://wiki.hydrogenaud.io/index.php?title=AAC_encoders#Features)
