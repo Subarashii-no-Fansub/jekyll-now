@@ -15,9 +15,9 @@ You just have to:
 3. Modify ```configTorrent.cfg```
 	* ```setdirectory``` is where to put the .torrent in your computer
 	* You must to set the two public tracker (```public_tracker_un```, ```public_tracker_deux``` and ```public_tracker_trois```).<br>Here good tracker you can use:
-		* ```http://tracker.anirena.com:80/announce``` (you must to registrer your torrent)
+		* ```http://nyaa.tracker.wf:7777/announce``` (you must to registrer your torrent)
 		* ```http://anidex.moe:6969/announce``` (you must to registrer your torrent)
-		* ```udp://tracker.doko.moe:6969```
+		* ```udp://tracker.moeking.me:6969/announce```
 		* and others that you can find [here](https://github.com/ngosang/trackerslist)
 	* You must to set the private tracker (```private_tracker```).<br>Private tracker means disallow DHT and PeerExchange
 	* Run ```$ ./PublicTracker 'myfile'``` or ```$ ./PublicTracker 'myfolder'```
@@ -30,7 +30,7 @@ My favorites are ```transmission-bt``` (or simply ```transmission```) and ```qbi
 
 ## The best conf for size piece
 
-If you have to config it, here the best conf to choose your piece size:
+If you have to config it, here the best conf to choose your piece size; transmission is only compatible with max-size pieces of 2MiB, while qbitorrent can create up to 32MiB (but 16MiB is the max I recommend)
 <table>
 	<tr>
 		<th>Total size of files</th>
