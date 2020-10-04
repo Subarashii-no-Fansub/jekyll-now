@@ -82,7 +82,7 @@ $ ./YoloCR.sh Filtered_video.mp4
 Since the new tesseract version 4.0, LSTM is the new motor. It's generally more accurate in the OCR, but it's loooonger than the old motor.<br>
 To use the legacy motor, simply download theses traineddata from [here](https://github.com/tesseract-ocr/tessdata/) and save it in the folder `/usr/share/tesseract/tessdata` under the name `<lang>-legacy.traineddata`.
 
-When using YoloCR, simply launch it in this way: `./YoloCR.sh Filetred_video.mp4 <lang>-legacy` instead of `./YoloCR.sh Filetred_video.mp4 <lang>` (else it'll use LSTM).
+When using YoloCR, simply launch it in this way: `./YoloCR.sh Filtered_video.mp4 <lang>-legacy` instead of `./YoloCR.sh Filtered_video.mp4 <lang>` (else it'll use LSTM).
 
 ## Time the video
 
