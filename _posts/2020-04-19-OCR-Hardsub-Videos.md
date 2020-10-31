@@ -9,14 +9,14 @@ I'll explain you how to easily OCR videos.
 {{post.excerpt}}
 
 For that, I'll use:
- * [YoloCR](https://git.clapity.eu/Id/YoloCR)
+ * [YoloCR](https://bitbucket.org/YuriZero/yolocr/src/master/)
    * that uses `FFmpeg`, `Vapoursynth` (and some plugins), `Vapoursynth Editor`, `Tesseract`
  * [Sushi](https://github.com/tp7/Sushi)
    * that uses `MkvExtract`
 
 ## OCR the video
 
-You can follow the [README of YoloCR](https://git.clapity.eu/Id/YoloCR/src/e1b7a03d2c1bcc1adbbc8dd280eed5392553fe11/README_EN.md) but here a short version of the README:
+You can follow the [README of YoloCR](https://bitbucket.org/YuriZero/yolocr/src/4d88afa106aff828ee78969696e1154a9f2d9d36/README_EN.md) but here a short version of the README:
 
 ### `YoloResize.py` script
 
@@ -87,6 +87,8 @@ When using YoloCR, simply launch it in this way: `./YoloCR.sh Filtered_video.mp4
 ## Time the video
 
 As sometimes the video to OCR is not timed at the same time than your destination video (because of for example the presence of an introduction), we're going to use [Sushi](https://github.com/tp7/Sushi).
+
+As an alternative, you have [BDMatch](https://github.com/Thomasyse/BDMatch).
 
 To install it, visit [the Github Sushi](https://github.com/tp7/Sushi/blob/master/README.md#requirements).
 
