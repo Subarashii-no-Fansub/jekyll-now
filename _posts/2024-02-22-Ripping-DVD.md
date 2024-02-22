@@ -5,6 +5,8 @@ excerpt: <!--more-->
 ---
 {{post.excerpt}}
 
+## Ripping DVD
+
 In true you can rip DVD / BD / UHD BD with this tutorial
 
 * Download MAKEMKV: https://www.makemkv.com/
@@ -28,3 +30,10 @@ On windows only, then use imgburn to rebuild an iso; you will find the software 
  * choose a label for the UDF (I keep the default one) and choose yes
  * then wait :)
  * and... done
+
+## Creating ISO file
+
+### from DVD when only having VIDEO_TS
+
+If you have a folder VIDEO_TS (and sometimes AUDIO_TS too) you can use
+`mkisofs -dvd-video -o name_of_the_iso.iso 'FOLDER_CONTAINING_THE_VIDEO_TS'`
